@@ -140,5 +140,6 @@ public class CalManager : MonoBehaviour
         if(error) return;
 
         resText.text = result.ToString();
+        currInput = result.ToString();
     }
 }
